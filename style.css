@@ -1,0 +1,136 @@
+* {
+    background-color: darkcyan;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+    background-color: rgb(31, 26, 26);
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 152px;
+    margin-bottom: 100px;
+    padding-top: 45px;
+    padding-bottom: 35px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px;
+}
+
+section {
+    color: white;
+    background-color: rgb(31, 26, 26);
+}
+
+.container p {
+    color: white;
+    background-color: rgb(31, 26, 26);
+    background-color: darkcyan;
+    text-align: center;
+
+}
+
+.container input {
+    background-color: rgb(31, 26, 26);
+    display: block;
+    position: relative;
+    color: white;
+    background-size: 40px 40px;
+    padding-right: 95px;
+    position: relative;
+    left: 75px;
+    border-style: solid;
+    border-radius: 3px;
+    border-color: aqua;
+    border-width: 1px;
+}
+
+.container a {
+    background-color: rgb(31, 26, 26);
+    float: right;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: darkcyan;
+    font-size: 13px;
+    text-decoration: none;
+    margin-right: 88px;
+}
+
+a:active {
+    color: white;
+}
+
+#bienvenido {
+    background-color: rgb(31, 26, 26);
+    text-align: center;
+    font-size: 22px;
+}
+
+.container .listas p {
+    display: inline;
+    left: 163px;
+    padding: 7px 10px 7px 10px;
+    border-radius: 5px;
+    position: relative;
+    left: 144px;
+    margin-right: 1px;
+    text-align: center;
+}
+
+#lista2 {
+    cursor: pointer;
+    padding-right: 22px;
+    padding-left: 19px;
+}
+
+
+#lista1 {
+
+    cursor: pointer;
+}
+
+#inicio {
+    text-align: center;
+    position: relative;
+    top: 26px;
+    cursor: pointer;
+    margin-left: 120px;
+    margin-right: 120px;
+    padding-left: 75px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 5px;
+
+}
+
+#inicio:hover {
+    background-color: blue;
+    box-shadow: 0 0.1rem 0.4rem rgba(17, 219, 219, 0.3)
+}
+
+#lista1:hover {
+    background-color: blue;
+    box-shadow: 0 0.1rem 0.4rem rgba(17, 219, 219, 0.3)
+}
+
+#lista2:hover {
+    background-color: blue;
+    box-shadow: 0 0.1rem 0.4rem rgba(17, 219, 219, 0.3) float right;
+}
+
+
+
+.container .input1 {
+    margin-bottom: 20px;
+    padding-right: 95px;
+    position: relative;
+    left: 75px;
+    border-style: solid;
+    border-radius: 3px;
+    border-color: aqua;
+    border-width: 1px;
+    color: white;
+}
+
+::placeholder {
+    color: gray;
+}
